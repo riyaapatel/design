@@ -1,0 +1,111 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Heading */
+
+.heading {
+  text-align: center;
+  padding: 5% 15% 0;
+  font-size: 2rem;
+  color: hsl(234, 12%, 34%);
+}
+
+#heading1 {
+  margin-bottom: 0;
+  font-weight: 200;
+}
+
+#heading2 {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.info {
+  text-align: center;
+  padding: 1% 33%;
+  font-weight: 300;
+  font-size: 14px;
+  color: hsl(229, 6%, 66%);
+}
+
+/* Cards */
+.card-columns{
+  padding: 5% 5%;
+  margin: 0 5%;
+}
+.card{
+  background-color: #fff;
+  border: 0px;
+  margin-bottom: 2rem !important;
+}
+.card-body{
+  padding: 5%;
+}
+.card-title{
+  font-size: 20px;
+  font-weight: 400;
+  color: hsl(234, 12%, 34%);
+}
+.card-text{
+  font-size: 12px;
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+.card1{
+  margin: 36% auto;
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.card2{
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card3{
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.card4{
+  margin: 36% auto;
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+.icon{
+  float: right;
+}
+
+.shadow{
+  box-shadow: 0 .5rem 1rem #d0d9e5 !important;
+}
+
+.author{
+  font-family: 'Sacramento', cursive;
+  font-size: 16px;
+}
+@media (max-width:375px) {
+  .heading{
+    margin: 5% 0;
+  }
+  #heading1 {
+    font-size: 19px;
+    margin-bottom: 2%;
+  }
+
+  #heading2 {
+    font-size: 19px;
+    margin-bottom: 2%;
+  }
+
+  .info {
+    text-align: center;
+    padding: 1% 0;
+    font-size: 15px;
+
+  }
+
+  .card1{
+    margin: 0 auto;
+  }
+  .card4{
+    margin: 0 auto;
+  }
+}
